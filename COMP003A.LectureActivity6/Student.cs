@@ -17,7 +17,7 @@ namespace COMP003A.LectureActivity6
             Age = age;
         }
 
-        void DisplayInfo() // void class for information display
+        public void DisplayInfo() // void class for information display
         {
             Console.WriteLine("Name: " + Name);
 
