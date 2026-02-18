@@ -10,11 +10,18 @@ namespace COMP003A.LectureActivity6
 
         int Age;
 
-        Student(string name, int age) // If I am understanding right this is the constructor we are adding
+        public Student(string name, int age) // If I am understanding right this is the constructor we are adding
         {
             Name = name;
 
             Age = age;
+        }
+
+        void DisplayInfo() // void class for information display
+        {
+            Console.WriteLine("Name: " + Name);
+
+            Console.WriteLine("Age: " + Age);
         }
     }
 }
