@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Student student1 = new Student("Sam", 29);
+            Student student1 = new Student("Sam", 31); // changed age and only this display changes not both
             // objects to call to the student class
             Student student2 = new Student("Haylee", 28);
 
